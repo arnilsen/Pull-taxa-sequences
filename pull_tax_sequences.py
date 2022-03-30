@@ -19,7 +19,9 @@ parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpForm
             naming convention is retained throughout to ensure seamless concatenation.
 
             Several temporary files are also save to disk and deleted at the completion of the script. This
-            can be disabled with the --verbose flag.'''))
+            can be disabled with the --verbose flag.
+            
+            pull_tax_species.py -i species_list.txt -e your.email@random.com -r "internal transcribed spacer",rpb1,rpb2'''))
 
 parser.add_argument('-i', '--input', type = str, metavar = '', required = True, help = 'enter file of species names, one species per line')
 parser.add_argument('-e', '--email', type = str, metavar = '', required = True, help = 'enter email address so NCBI can contact you if there is a problem')
