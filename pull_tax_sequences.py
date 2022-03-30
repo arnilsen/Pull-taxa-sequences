@@ -9,7 +9,7 @@ import csv
 import sys
 
 
-parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description = 'Get species seqs: pull all sequences for genes of interest from specified species',\
+parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description = 'Pull taxa sequences: pull all sequences for genes of interest from specified species',\
             epilog = textwrap.dedent('''
             Additional information:
             This script takes a file of species (one per line) and genes of interest and retrieves them from NCBI.
