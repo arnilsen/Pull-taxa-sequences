@@ -7,6 +7,7 @@ import argparse
 import re
 import csv
 import sys
+import Bio
 
 
 parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description = 'Pull taxa sequences: pull all sequences for genes of interest from specified species',\
